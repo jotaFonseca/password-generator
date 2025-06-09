@@ -21,19 +21,20 @@ input:focus {
   outline: none;
 }
 /* Container */
-#register-container{
-  background-color: #fff;
+#register-container {
   border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, .25) 0px 13px 27px -5px, rgba(0, 0, 0, .3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
   width: 1000px;
   margin: 2rem auto;
 }
 
 /* Banner */
 #register-banner {
-  background: url('../img/form-bg.png');
+  background: url("../img/form-bg.png");
   background-size: cover;
   background-position: center;
   border-top-left-radius: 10px;
@@ -43,6 +44,8 @@ input:focus {
 
 #banner-layer {
   background-color: rgba(25, 30, 122, 0.25);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   display: flex;
   align-items: center;
   padding: 2rem;
@@ -56,3 +59,89 @@ input:focus {
   word-spacing: 50rem;
 }
 
+/* Form */
+#register-form {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 50%;
+}
+
+#register-form h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#register-form p {
+  color: #aaa;
+  font-size: .8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+.form-control input {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  padding: 1rem 0;
+}
+
+#generate-password {
+  cursor: pointer;
+  font-weight: bold;
+  transition: .4s;
+}
+
+#generate-password:hover {
+  color: #ae62d4;
+}
+
+#register-form #generated-password {
+  border: 2px solid #ae62d4;
+  border-radius: 4px;
+  color: #333;
+  display: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: .4rem;
+  text-align: center;
+}
+
+#generated-password p {
+  color: #ae62d4;
+}
+
+#generated-password h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#register-form input[type='submit'] {
+  background-color: #ae62d4;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-end;
+  max-width: 150px;
+  padding: 1rem 1.4rem;
+  opacity: .8;
+  transition: .4s;
+}
+
+#register-form input[type='submit']:hover {
+  opacity: 1;
+}
