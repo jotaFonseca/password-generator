@@ -80,9 +80,9 @@ const getNumber = () => Math.floor(Math.random() * 10).toString();
 ## 🤝 Contribuindo
 
 1. Faça um Fork do projeto
-2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
+2. Crie sua Feature Branch (`git checkout -b feature/Feature`)
+3. Commit suas mudanças (`git commit -m 'Add some Feature'`)
+4. Push para a Branch (`git push origin feature/Feature`)
 5. Abra um Pull Request
 
 ---
