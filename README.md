@@ -50,7 +50,7 @@ password-generator/
 │   ├── js/
 │   │   └── script.js
 │   └── img/
-│       └── form-bg.png
+│       ├── form-bg.png
 │       └── preview-password-generator.png
 │
 ├── index.html
