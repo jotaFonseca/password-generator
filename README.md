@@ -51,6 +51,7 @@ password-generator/
 │   │   └── script.js
 │   └── img/
 │       └── form-bg.png
+│       └── preview-password-generator.png
 │
 ├── index.html
 └── README.md
