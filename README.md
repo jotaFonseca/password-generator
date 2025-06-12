@@ -75,7 +75,7 @@ const getNumber = () => Math.floor(Math.random() * 10).toString();
 
 ## 📸 Preview
 
-![Preview do Projeto](caminho-para-screenshot.png)
+![Preview do Projeto](./src/img/preview-password-generator.jpg)
 
 ## 🤝 Contribuindo
 
@@ -85,18 +85,13 @@ const getNumber = () => Math.floor(Math.random() * 10).toString();
 4. Push para a Branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
 
 ### 📊 Status do Projeto
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
+![Status](https://img.shields.io/badge/Status-Pronto%20para%20Uso-brightgreen)
 
 ---
 
-⌨️ Desenvolvido por João Paulo Araújo(https://github.com/jotaFonseca)
+⌨️ Desenvolvido por João Paulo Araújo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/joaofonsecaraujo)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)]((https://github.com/jotaFonseca))
