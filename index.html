@@ -28,29 +28,69 @@
         <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
         <div class="form-control">
           <label for="name">Nome</label>
-          <input type="text" name="name" id="name" placeholder="Digite seu nome:">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Digite seu nome:"
+          />
         </div>
         <div class="form-control">
           <label for="email">E-mail</label>
-          <input type="email" name="email" id="email" placeholder="Digite seu e-mail:">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu e-mail:"
+          />
         </div>
         <div class="form-control">
           <label for="password">Senha</label>
-          <input type="password" name="password" id="password" placeholder="Digite sua senha:">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha:"
+          />
         </div>
         <p>
           Quer ajuda para criar uma senha segura?
           <span id="generate-password">Clique aqui!</span>
         </p>
+        <div class="generate-option">
+          <p>Selecione as opções que você deseja</p>
+          <div class="form-control">
+            <label for="length">Quantidade de caracteres:</label>
+            <input type="text" id="length" name="length" value="10" />
+          </div>
+          <div class="form-control">
+            <label for="letters">Letras:</label>
+            <input type="checkbox" id="letters" name="letters" checked />
+          </div>
+          <div class="form-control">
+            <label for="numbers">Números:</label>
+            <input type="checkbox" id="numbers" name="numbers" checked />
+          </div>
+          <div class="form-control">
+            <label for="symbols">Símbolos:</label>
+            <input type="checkbox" id="symbols" name="symbols" checked />
+          </div>
+        </div>
         <div id="generated-password">
           <p>Senha gerada com sucesso!</p>
           <h4></h4>
+          <button id="copy-password">Copiar</button>
         </div>
         <div class="form-control">
           <label for="confirmPassword">Confirme sua senha</label>
-          <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confime sua senha:">
+          <input
+            type="password"
+            name="confirmPassword"
+            id="confirmPassword"
+            placeholder="Confime sua senha:"
+          />
         </div>
-        <input type="submit" value="Cadastrar">
+        <input type="submit" value="Cadastrar" />
       </div>
     </div>
   </body>
